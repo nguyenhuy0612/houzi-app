@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "688388713366",
+    "project_id": "houzi-public",
+    "storage_bucket": "houzi-public.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688388713366:android:668566adc626f61b6ccbb7",
+        "android_client_info": {
+          "package_name": "com.houzi.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688388713366-r7p6v73i486hkla18tencj267k3p0jui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAuPn1kDm1tqXlA8dW2asN_EW9LoEyHPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688388713366-r7p6v73i486hkla18tencj267k3p0jui.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "688388713366-m8krfc4g22fu9rofjdueh5jgo82h2psk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.houzi.public"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688388713366:android:7d04b56d9d99f9f76ccbb7",
+        "android_client_info": {
+          "package_name": "com.houzi.public"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688388713366-r7p6v73i486hkla18tencj267k3p0jui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAuPn1kDm1tqXlA8dW2asN_EW9LoEyHPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688388713366-r7p6v73i486hkla18tencj267k3p0jui.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "688388713366-m8krfc4g22fu9rofjdueh5jgo82h2psk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.houzi.public"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
