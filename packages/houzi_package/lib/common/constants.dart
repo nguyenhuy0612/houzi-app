@@ -2,7 +2,7 @@ library constants;
 
 import 'dart:core';
 
-String APP_NAME = 'Houzi';
+String APP_NAME = 'LGS Real Estate';
 
 /// Your wordpress website URLs
 /// Replace the following fields with your website URL
@@ -26,7 +26,7 @@ String APP_TERMS_OF_USE_URL = "https://houzi.booleanbites.com/terms.html";
 String WORDPRESS_URL_GDPR_AGREEMENT = "https://houzi.booleanbites.com/terms.html";
 
 /// Your Company Related
-String COMPANY_URL = "https://booleanbites.com";
+String COMPANY_URL = "https://lgscambodia.com/about";
 
 ///Some website use 'wp/v2/properties' and some 'wp/v2/property' and some 'wp/v2/translated_property_name'
 // const String REST_API_PROPERTIES_ROUTE = 'property';

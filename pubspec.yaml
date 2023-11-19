@@ -13,7 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_launcher_icons: 0.9.2
+  flutter_launcher_icons: ^0.9.2
 
   flutter_localizations:
     sdk: flutter
@@ -46,6 +46,7 @@ flutter:
 
   assets:
     - assets/icon/icon.png
+    - assets/icon/logo.png
     - assets/no-internet.png
     - assets/settings/dummy_property_image.jpg
     - assets/settings/dummy_property_image_01.jpg

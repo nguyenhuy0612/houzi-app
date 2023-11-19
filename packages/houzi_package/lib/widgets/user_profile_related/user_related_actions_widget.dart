@@ -70,13 +70,13 @@ class UserRelatedActionsWidget extends StatelessWidget {
                       onTap: () => onAddPropertyTap(context),
                     ),
                   // if(isUserLogged && TOUCH_BASE_PAYMENT_ENABLED_STATUS == membership && paymentStatus == membership)
-                  if(isUserLogged && paymentStatus == membership)
-                    GenericWidgetRow(
-                      padding: const EdgeInsets.only(top: 20.0, bottom: 15.0),
-                      iconData: AppThemePreferences.membership,
-                      text: UtilityMethods.getLocalizedString("Membership"),
-                      onTap: () => onMembershipTap(context),
-                    ),
+                  // if(isUserLogged && paymentStatus == membership)
+                  //   GenericWidgetRow(
+                  //     padding: const EdgeInsets.only(top: 20.0, bottom: 15.0),
+                  //     iconData: AppThemePreferences.membership,
+                  //     text: UtilityMethods.getLocalizedString("Membership"),
+                  //     onTap: () => onMembershipTap(context),
+                  //   ),
                   if(userRole.isNotEmpty && userRole == ROLE_ADMINISTRATOR)
                     GenericWidgetRow(
                       padding: const EdgeInsets.only(top: 20.0, bottom: 15.0),

@@ -1,26 +1,16 @@
 {
-  "api_config_version": 1,
+  "api_config_version": 2,
   "show_total_search_type_options": 2,
-  "default_home": "home_1",
-  "default_bottom_navbar_design" : "design_02",
-  "quote": "What are you looking for?",
-  "app_name": "Houzi",
-  "purchase_code": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
   "wordpress_url_scheme": "https",
   "wordpress_url_domain": "lgscambodia.com",
   "wordpress_url_path": "",
-  "app_terms_url": "https://houzi.booleanbites.com/terms.html",
-  "app_privacy_url": "https://houzi.booleanbites.com/privacy.html",
-  "app_terms_of_use_url": "https://houzi.booleanbites.com/terms.html",
-  "wordpress_url_gdpr_agreement": "https://houzi.booleanbites.com/terms.html",
-  "company_url": "https://booleanbites.com",
-  "locale_in_url": "Do not change url",
-  "rest_api_properties_route": "properties",
-  "rest_api_agent_route": "agents",
-  "rest_api_agency_route": "agencies",
-  "google_map_api_key": "AIzaSyBqQMpR73ry257vNlpmgigNJ73qcKCpuOk",
-  "android_native_ad_id": "ca-app-pub-3940256099942544/2247696110",
-  "ios_native_ad_id": "ca-app-pub-3940256099942544/2247696110",
+  "app_name": "LGS Real Estate",
+  "wordpress_url": "https://lgscambodia.com/",
+  "app_terms_url": "https://lgscambodia.com/terms/",
+  "app_privacy_url": "https://lgscambodia.com/privacy/",
+  "app_terms_of_use_url": "https://lgscambodia.com/terms/",
+  "wordpress_url_gdpr_agreement": "https://lgscambodia.com/gdpr-agreement/",
+  "company_url": "www.lgscambodia.com",
   "primary_color": "#FF25ADDE",
   "secondary_color": "#FF25ADDE",
   "app_background_color_light_mode": "#FFFFFFFF",
@@ -30,16 +20,18 @@
   "filter_page_headings_color_light_mode": "#FF757575",
   "filter_page_headings_color_dark_mode": "#FF757575",
   "filter_page_place_holder_text_color_light_mode": "#FF212121",
-  "filter_page_place_holder_text_color_dark_mode": "#FFFFFFFF",
-  "filter_page_icon_tint_color_light_mode": "#FF25ADDE",
-  "filter_page_icon_tint_color_dark_mode": "#FF868A8D",
+  "filter_page_place_holder_text_color_dark_mode": "#FF212121",
   "icon_tint_color": "#FF25ADDE",
   "icon_tint_color_dark_mode": "#FF868A8D",
+  "filter_page_icon_tint_color_light_mode": "#FF25ADDE",
+  "filter_page_icon_tint_color_dark_mode": "#FF868A8D",
+  "slider_tint_color": "#FF25ADDE",
+  "bottom_tab_bar_background_color_light": "#FFFAFAFA",
+  "bottom_tab_bar_background_color_dark": "#FF303030",
   "bottom_tab_bar_tint_color": "#FF25ADDE",
   "un_selected_bottom_tab_bar_tint_color": "#FF737373",
-  "slider_tint_color": "#FF25ADDE",
   "selected_item_background_color": "#4D25ADDE",
-  "un_selected_item_background_color": "#1A808080",
+  "un_selected_item_background_color": "#32808080",
   "selected_item_text_color": "#FF25ADDE",
   "un_selected_item_text_color": "#8A000000",
   "favourite_icon_tint_color": "#FFF44336",
@@ -49,9 +41,7 @@
   "action_button_background_color": "#FF25ADDE",
   "property_item_design_container_bg_color_light_mode": "#FFFFFFFF",
   "property_item_design_container_bg_color_dark_mode": "#FF242527",
-  "bottom_tab_bar_background_color_light": "#FFFAFAFA",
-  "bottom_tab_bar_background_color_dark": "#FF303030",
-  "featured_label_background_color": "#FFF5F5F5",
+  "featured_label_background_color": "#9925ADDE",
   "featured_tag_background_color_dark_mode": "#FF3A3B3D",
   "featured_tag_border_color_light_mode": "#9925ADDE",
   "featured_tag_border_color_dark_mode": "#FF000000",
@@ -63,30 +53,37 @@
   "tag_border_color_dark_mode": "#1FFFFFFF",
   "tag_font_color_light_mode": "#FF000000",
   "tag_font_color_dark_mode": "#FFBDBDBD",
-  "divider_color_light": "#1F000000",
-  "divider_color_dark": "#1FFFFFFF",
-  "show_detailed_add_property": true,
-  "show_quick_add_property": true,
-  "show_add_property_in_profile": true,
-  "lock_places_api": false,
-  "lock_places_api_countries": "PK,FR",
-  "show_ads": true,
-  "show_android_ads": true,
-  "show_ios_ads": true,
-  "show_login_with_facebook": true,
-  "show_login_with_google": true,
-  "show_login_with_apple": true,
-  "show_login_with_phone": true,
+  "divider_color_light_mode": "#1F000000",
+  "divider_color_dark_mode": "#1FFFFFFF",
+  "locale_in_url": "Do not change url",
+  "rest_api_properties_route": "properties",
+  "rest_api_agent_route": "agents",
+  "rest_api_agency_route": "agencies",
+  "google_map_api_key": "AIzaSyBv8s_M50qE4yIHOJMxFSAatiZyNW4XY18",
+  "lock_places_api": true,
+  "lock_places_api_countries": "KH",
+  "android_native_ad_id": "ca-app-pub-3940256099942544/22476961106",
+  "ios_native_ad_id": "ca-app-pub-3940256099942544/3986624511",
+  "show_ads": false,
   "show_map_instead_filter": false,
-  "show_add_property": false,
-  "show_request_demo": false,
-  "show_call_button": true,
+  "show_login_with_facebook": false,
+  "show_login_with_google": false,
+  "show_login_with_apple": false,
+  "show_login_with_phone": false,
+  "show_grid_view_button": true,
+  "default_home": "home_1",
+  "default_bottom_navbar_design": "design_01",
+  "show_print_property_button": true,
   "show_email_button": true,
+  "show_call_button": true,
   "show_whatsapp_button": true,
+  "show_download_image_button": true,
+  "show_theme_related_settings": false,
+  "show_request_demo": false,
+  "show_add_property": true,
   "home_layout": [
     {
       "section_type": "term_with_icons",
-      "title": "What are you looking for?",
       "layout_design": "",
       "sub_type": "",
       "sub_type_value": "",
@@ -94,19 +91,9 @@
       "show_featured": false,
       "show_nearby": false,
       "sub_type_list": null,
-      "sub_type_value_list": null
-    },
-    {
-      "section_type": "ad",
-      "title": "Ad View",
-      "layout_design": "",
-      "sub_type": "",
-      "sub_type_value": "",
-      "section_listing_view": "",
-      "show_featured": false,
-      "show_nearby": false,
-      "sub_type_list": null,
-      "sub_type_value_list": null
+      "sub_type_value_list": null,
+      "search_api_map": {},
+      "search_route_map": {}
     },
     {
       "section_type": "recent_search",
@@ -118,44 +105,82 @@
       "show_featured": false,
       "show_nearby": false,
       "sub_type_list": null,
-      "sub_type_value_list": null
+      "sub_type_value_list": null,
+      "search_api_map": {},
+      "search_route_map": {}
     },
     {
       "section_type": "property",
       "title": "Featured Properties",
-      "layout_design": "design_01",
+      "layout_design": "Design # 01",
       "sub_type": "all",
       "sub_type_value": "all",
       "section_listing_view": "carousel",
       "show_featured": true,
       "show_nearby": false,
-      "sub_type_list": null,
-      "sub_type_value_list": null
+      "sub_type_list": [
+        "all"
+      ],
+      "sub_type_value_list": [
+        "all"
+      ],
+      "search_api_map": {},
+      "search_route_map": {}
     },
     {
       "section_type": "property",
       "title": "Latest Properties",
       "layout_design": "design_01",
       "sub_type": "property_city",
-      "sub_type_value": "user_selected",
-      "section_listing_view": "carousel",
+      "sub_type_value": "all",
+      "section_listing_view": "list",
       "show_featured": false,
       "show_nearby": false,
-      "sub_type_list": null,
-      "sub_type_value_list": null
+      "sub_type_list": [
+        "property_city"
+      ],
+      "sub_type_value_list": [
+        "all"
+      ],
+      "search_api_map": {},
+      "search_route_map": {
+        "city_slug": [],
+        "search_city": []
+      }
     }
   ],
   "filter_page_layout": [
+    {
+      "section_type": "keyword_picker",
+      "title": "Keyword",
+      "data_type": "keyword",
+      "api_value": "keyword",
+      "picker_type": "text_field",
+      "picker_sub_type": null,
+      "show_search_by_city": true,
+      "show_search_by_location": true,
+      "min_range_value": "0",
+      "max_range_value": "1000000",
+      "div_range_value": "1000",
+      "options": null,
+      "unique_key": null,
+      "query_type": null
+    },
     {
       "section_type": "term_picker",
       "title": "I want to",
       "data_type": "property_status",
       "api_value": "status[]",
       "picker_type": "tabs and chips",
+      "picker_sub_type": null,
       "show_search_by_city": true,
       "show_search_by_location": true,
       "min_range_value": "0",
-      "max_range_value": "0"
+      "max_range_value": "0",
+      "div_range_value": "1000",
+      "options": null,
+      "unique_key": null,
+      "query_type": null
     },
     {
       "section_type": "location_picker",
@@ -163,21 +188,15 @@
       "data_type": "property_city",
       "api_value": "location[]",
       "picker_type": "full_screen",
+      "picker_sub_type": null,
       "show_search_by_city": true,
-      "show_search_by_location": true,
+      "show_search_by_location": false,
       "min_range_value": "0",
-      "max_range_value": "0"
-    },
-    {
-      "section_type": "term_picker",
-      "title": "Area",
-      "data_type": "property_area",
-      "api_value": "area[]",
-      "picker_type": "full_screen",
-      "show_search_by_city": true,
-      "show_search_by_location": true,
-      "min_range_value": "0",
-      "max_range_value": "0"
+      "max_range_value": "1000000",
+      "div_range_value": "1000",
+      "options": null,
+      "unique_key": null,
+      "query_type": null
     },
     {
       "section_type": "term_picker",
@@ -185,21 +204,15 @@
       "data_type": "property_type",
       "api_value": "type[]",
       "picker_type": "tabs and chips",
+      "picker_sub_type": null,
       "show_search_by_city": true,
       "show_search_by_location": true,
       "min_range_value": "0",
-      "max_range_value": "0"
-    },
-    {
-      "section_type": "range_picker",
-      "title": "Price range",
-      "data_type": "price",
-      "api_value": "max-price",
-      "picker_type": "range slider",
-      "show_search_by_city": true,
-      "show_search_by_location": true,
-      "min_range_value": "0",
-      "max_range_value": "1000000"
+      "max_range_value": "0",
+      "div_range_value": "1000",
+      "options": null,
+      "unique_key": null,
+      "query_type": null
     },
     {
       "section_type": "range_picker",
@@ -207,10 +220,31 @@
       "data_type": "area",
       "api_value": "max-area",
       "picker_type": "range slider",
+      "picker_sub_type": null,
       "show_search_by_city": true,
       "show_search_by_location": true,
       "min_range_value": "0",
-      "max_range_value": "1000000"
+      "max_range_value": "1000000",
+      "div_range_value": "1000",
+      "options": null,
+      "unique_key": null,
+      "query_type": null
+    },
+    {
+      "section_type": "range_picker",
+      "title": "Price range",
+      "data_type": "price",
+      "api_value": "max-price",
+      "picker_type": "range slider",
+      "picker_sub_type": null,
+      "show_search_by_city": true,
+      "show_search_by_location": true,
+      "min_range_value": "0",
+      "max_range_value": "1000000",
+      "div_range_value": "1000",
+      "options": null,
+      "unique_key": null,
+      "query_type": null
     },
     {
       "section_type": "string_picker",
@@ -218,10 +252,15 @@
       "data_type": "bedrooms",
       "api_value": "bedrooms",
       "picker_type": "chips",
+      "picker_sub_type": null,
       "show_search_by_city": true,
       "show_search_by_location": true,
       "min_range_value": "0",
-      "max_range_value": "0"
+      "max_range_value": "0",
+      "div_range_value": "1000",
+      "options": null,
+      "unique_key": null,
+      "query_type": null
     },
     {
       "section_type": "string_picker",
@@ -229,109 +268,162 @@
       "data_type": "bathrooms",
       "api_value": "bathrooms",
       "picker_type": "chips",
+      "picker_sub_type": null,
       "show_search_by_city": true,
       "show_search_by_location": true,
       "min_range_value": "0",
-      "max_range_value": "0"
+      "max_range_value": "0",
+      "div_range_value": "1000",
+      "options": null,
+      "unique_key": null,
+      "query_type": null
+    }
+  ],
+  "drawer_layout": [
+    {
+      "section_type": "home",
+      "title": "Home",
+      "check_login": false,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
     },
     {
-      "section_type": "keyword_picker",
-      "title": "Keyword",
-      "data_type": "keyword",
-      "api_value": "keyword",
-      "picker_type": "text_field",
-      "show_search_by_city": true,
-      "show_search_by_location": true,
-      "min_range_value": "0",
-      "max_range_value": "1000000"
+      "section_type": "expansionTile",
+      "title": "CRM Dashboard",
+      "check_login": false,
+      "enable": true,
+      "expansion_tile_children": [
+        {
+          "section_type": "activities",
+          "title": "Activities",
+          "check_login": true,
+          "enable": null,
+          "expansion_tile_children": null,
+          "data_map": null
+        },
+        {
+          "section_type": "inquiries",
+          "title": "Inquiries",
+          "check_login": true,
+          "enable": null,
+          "expansion_tile_children": null,
+          "data_map": null
+        },
+        {
+          "section_type": "deals",
+          "title": "Deals",
+          "check_login": true,
+          "enable": null,
+          "expansion_tile_children": null,
+          "data_map": null
+        },
+        {
+          "section_type": "leads",
+          "title": "Leads",
+          "check_login": true,
+          "enable": null,
+          "expansion_tile_children": null,
+          "data_map": null
+        }
+      ],
+      "data_map": null
     },
     {
-      "section_type": "Custom Field: Place Name",
-      "title": "Place Name",
-      "data_type": "text",
-      "api_value": "place-name",
-      "picker_type": null,
-      "show_search_by_city": true,
-      "show_search_by_location": true,
-      "min_range_value": "0",
-      "max_range_value": "1000000"
+      "section_type": "add_property",
+      "title": "Add Property",
+      "check_login": true,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
     },
     {
-      "section_type": "Custom Field: Availability",
-      "title": "Availability",
-      "data_type": "radio",
-      "api_value": "availability",
-      "picker_type": null,
-      "show_search_by_city": true,
-      "show_search_by_location": true,
-      "min_range_value": "0",
-      "max_range_value": "1000000"
+      "section_type": "quick_add_property",
+      "title": "Quick Add Property",
+      "check_login": true,
+      "enable": false,
+      "expansion_tile_children": null,
+      "data_map": null
     },
     {
-      "section_type": "Custom Field: Security Features",
-      "title": "Security Features",
-      "data_type": "multiselect",
-      "api_value": "security-features",
-      "picker_type": null,
-      "show_search_by_city": true,
-      "show_search_by_location": true,
-      "min_range_value": "0",
-      "max_range_value": "1000000"
+      "section_type": "properties",
+      "title": "Properties",
+      "check_login": true,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
     },
     {
-      "section_type": "Custom Field: Street Number",
-      "title": "Street Number",
-      "data_type": "number",
-      "api_value": "street-number",
-      "picker_type": null,
-      "show_search_by_city": true,
-      "show_search_by_location": true,
-      "min_range_value": "0",
-      "max_range_value": "1000000"
+      "section_type": "agents",
+      "title": "Agents",
+      "check_login": false,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
     },
     {
-      "section_type": "Custom Field: Renovated",
-      "title": "Renovated",
-      "data_type": "select",
-      "api_value": "renovated",
-      "picker_type": null,
-      "show_search_by_city": true,
-      "show_search_by_location": true,
-      "min_range_value": "0",
-      "max_range_value": "1000000"
+      "section_type": "agencies",
+      "title": "Agencies",
+      "check_login": false,
+      "enable": false,
+      "expansion_tile_children": null,
+      "data_map": null
     },
     {
-      "section_type": "Custom Field: Luxurious Features",
-      "title": "Luxurious Features",
-      "data_type": "checkbox_list",
-      "api_value": "luxurious-features",
-      "picker_type": null,
-      "show_search_by_city": true,
-      "show_search_by_location": true,
-      "min_range_value": "0",
-      "max_range_value": "1000000"
+      "section_type": "request_property",
+      "title": "Property Request",
+      "check_login": true,
+      "enable": false,
+      "expansion_tile_children": null,
+      "data_map": null
     },
     {
-      "section_type": "Custom Field: Additional Description",
-      "title": "Additional Description",
-      "data_type": "textarea",
-      "api_value": "additional-description",
-      "picker_type": null,
-      "show_search_by_city": true,
-      "show_search_by_location": true,
-      "min_range_value": "0",
-      "max_range_value": "1000000"
+      "section_type": "favorites",
+      "title": "Favorites",
+      "check_login": true,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
     },
     {
-      "section_type": "Custom Field: Test Field",
-      "title": "Test Field",
-      "data_type": "url",
-      "api_value": "test-field",
-      "picker_type": null,
-      "show_search_by_city": true,
-      "show_search_by_location": true,
-      "min_range_value": "0",
-      "max_range_value": "1000000"
+      "section_type": "saved_searches",
+      "title": "Saved Searches",
+      "check_login": true,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "settings",
+      "title": "Settings",
+      "check_login": false,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "request_demo",
+      "title": "Request Demo",
+      "check_login": false,
+      "enable": false,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "login",
+      "title": "Login",
+      "check_login": false,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
+    },
+    {
+      "section_type": "logout",
+      "title": "Log Out",
+      "check_login": false,
+      "enable": true,
+      "expansion_tile_children": null,
+      "data_map": null
     }
   ],
   "property_detail_page_layout": [
@@ -362,7 +454,7 @@
     {
       "widget_type": "ad",
       "widget_title": "Ad",
-      "widget_enable": true,
+      "widget_enable": false,
       "widget_view_type": ""
     },
     {
@@ -426,12 +518,6 @@
       "widget_view_type": ""
     },
     {
-      "widget_type": "button_grid",
-      "widget_title": "Buttons",
-      "widget_enable": true,
-      "widget_view_type": ""
-    },
-    {
       "widget_type": "enquire_info",
       "widget_title": "Enquire Info",
       "widget_enable": true,
@@ -466,138 +552,6 @@
       "widget_title": "Related Properties",
       "widget_enable": true,
       "widget_view_type": "list"
-    }
-  ],
-  "drawer_layout": [
-    {
-      "section_type": "home_0",
-      "title": "Home Carousel",
-      "check_login": false,
-      "enable": true
-    },
-    {
-      "section_type": "home_1",
-      "title": "Home Elegant",
-      "check_login": false,
-      "enable": true
-    },
-    {
-      "section_type": "home_2",
-      "title": "Home Location",
-      "check_login": false,
-      "enable": true
-    },
-    {
-      "section_type": "home_3",
-      "title": "Home Tabbed",
-      "check_login": false,
-      "enable": true
-    },
-    {
-      "section_type": "add_property",
-      "title": "Add Property",
-      "check_login": true,
-      "enable": true
-    },
-    {
-      "section_type": "quick_add_property",
-      "title": "Quick Add Property",
-      "check_login": true,
-      "enable": true
-    },
-    {
-      "section_type": "properties",
-      "title": "Properties",
-      "check_login": true,
-      "enable": true
-    },
-    {
-      "section_type": "agents",
-      "title": "Agents",
-      "check_login": false,
-      "enable": true
-    },
-    {
-      "section_type": "agencies",
-      "title": "Agencies",
-      "check_login": false,
-      "enable": true
-    },
-    {
-      "section_type": "my_agents",
-      "title": "My Agents",
-      "check_login": false,
-      "enable": true
-    },
-    {
-      "section_type": "request_property",
-      "title": "Property Request",
-      "check_login": true,
-      "enable": true
-    },
-    {
-      "section_type": "favorites",
-      "title": "Favorites",
-      "check_login": true,
-      "enable": true
-    },
-    {
-      "section_type": "saved_searches",
-      "title": "Saved Searches",
-      "check_login": true,
-      "enable": true
-    },
-    {
-      "section_type": "expansionTile",
-      "title": "CRM Dashboard",
-      "check_login": false,
-      "enable": true,
-      "expansion_tile_children": [
-        {
-          "section_type": "activities",
-          "title": "Activities",
-          "check_login": true
-        },
-        {
-          "section_type": "inquiries",
-          "title": "Inquiries",
-          "check_login": true
-        },
-        {
-          "section_type": "deals",
-          "title": "Deals",
-          "check_login": true
-        },
-        {
-          "section_type": "leads",
-          "title": "Leads",
-          "check_login": true
-        }
-      ]
-    },
-    {
-      "section_type": "settings",
-      "title": "Settings",
-      "check_login": false,
-      "enable": true
-    },
-    {
-      "section_type": "request_demo",
-      "title": "Contact Us",
-      "check_login": false,
-      "enable": true
-    },
-    {
-      "section_type": "login",
-      "title": "Login",
-      "check_login": false,
-      "enable": true
-    },
-    {
-      "section_type": "logout",
-      "title": "Log Out",
-      "check_login": false,
-      "enable": true
     }
   ],
   "add_property_layout": [
@@ -637,7 +591,7 @@
               "performValidation": false,
               "validationType": "stringValidation",
               "maxLines": 6,
-              "keyboardType": "multiline",
+              "keyboardType": "text",
               "field_values": null
             },
             {
@@ -1404,8 +1358,7 @@
       ]
     }
   ],
-
-  "quick_add_property_layout" : [
+  "quick_add_property_layout": [
     {
       "api_key": "prop_title",
       "enable": true,
@@ -1519,7 +1472,7 @@
       "term_type": "",
       "title": "Size Postfix",
       "hint": "Enter size postfix",
-      "additional_hint": "For example: Sq Ft",
+      "additional_hint": "For example: Sq m",
       "performValidation": false,
       "validationType": "",
       "maxLines": 1,

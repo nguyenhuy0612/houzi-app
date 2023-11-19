@@ -91,7 +91,7 @@ class HomeScreenDrawerWidgetState extends State<HomeScreenDrawerWidget> {
                         child: GenericTextWidget(
                           APP_NAME,
                           style: AppThemePreferences().appTheme.homeScreenDrawerTextStyle,
-                          strutStyle: StrutStyle(height: 1.7, forceStrutHeight: true),
+                          strutStyle: const StrutStyle(height: 1.7, forceStrutHeight: true),
                         ),
                       ),
                     ),
@@ -102,9 +102,7 @@ class HomeScreenDrawerWidgetState extends State<HomeScreenDrawerWidget> {
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      widget.userInfoData[USER_PROFILE_NAME] == null ||
-                          widget.userInfoData[USER_PROFILE_NAME].isEmpty
-                      // _userName == null || _userName.isEmpty
+                      widget.userInfoData[USER_PROFILE_NAME] == null || widget.userInfoData[USER_PROFILE_NAME].isEmpty
                           ? Container()
                           : GestureDetector(
                         child: ClipRRect(
@@ -116,7 +114,7 @@ class HomeScreenDrawerWidgetState extends State<HomeScreenDrawerWidget> {
                             shimmerHighlightColor: AppThemePreferences().appTheme.shimmerEffectHighLightColor,
                             width: 40,
                             height: 40,
-                            errorWidget: ShimmerEffectErrorWidget(iconSize: 15),
+                            errorWidget: const ShimmerEffectErrorWidget(iconSize: 15),
                           ),
                         ),
                         onTap: () => onUserProfileTap(),

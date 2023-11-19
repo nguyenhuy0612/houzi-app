@@ -42,23 +42,34 @@ class _SavedState extends State<Saved> with AutomaticKeepAliveClientMixin<Saved>
   @override
   Widget build(BuildContext context) {
     super.build(context);
+    // return WillPopScope(
+    //   onWillPop: () {
+    //     widget.savedPageListener(CLOSE);
+    //     return Future.value(false);
+    //   },
+    //   child: DefaultTabController(
+    //     length: 2,
+    //     child: Scaffold(
+    //       appBar: appBarForTabWidget(),
+    //       body: TabBarView(
+    //         controller: _tabController,
+    //         children: [
+    //           Favorites(),
+    //           SavedSearches(),
+    //         ],
+    //       ),
+    //     ),
+    //   ),
+    // );
     return WillPopScope(
       onWillPop: () {
         widget.savedPageListener(CLOSE);
         return Future.value(false);
       },
-      child: DefaultTabController(
-        length: 2,
-        child: Scaffold(
-          appBar: appBarForTabWidget(),
-          body: TabBarView(
-            controller: _tabController,
-            children: [
-              Favorites(),
-              SavedSearches(),
-            ],
-          ),
-        ),
+      child: Scaffold(
+        body: Center(
+          child: Text("HelloWord"),
+        )
       ),
     );
   }

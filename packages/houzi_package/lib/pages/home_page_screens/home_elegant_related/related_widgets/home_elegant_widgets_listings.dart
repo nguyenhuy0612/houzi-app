@@ -36,7 +36,7 @@ class HomeElegantListingsWidget extends StatefulWidget {
 
   HomeElegantListingsWidget({
     this.homeScreenData,
-    this.refresh = false,
+    this.refresh = true,
     this.homeScreen02ListingsWidgetListener,
   });
 
@@ -624,13 +624,13 @@ class _HomeElegantListingsWidgetState extends State<HomeElegantListingsWidget> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          Expanded(
-                            flex: 2,
-                            child: Home02HeaderWidget(
-                              text: UtilityMethods.getLocalizedString(homeConfigMap[titleKey]),
-                              padding: const EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 15.0),
-                            ),
-                          ),
+                          // Expanded(
+                          //   flex: 2,
+                          //   child: Home02HeaderWidget(
+                          //     text: UtilityMethods.getLocalizedString(homeConfigMap[titleKey]),
+                          //     padding: const EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 15.0),
+                          //   ),
+                          // ),
 
                           if(homeConfigMap[sectionTypeKey] != recentSearchKey
                               && homeConfigMap[sectionTypeKey] != partnersKey

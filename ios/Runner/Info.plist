@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Houzi</string>
+	<string>LGS Real Estate</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -63,12 +63,12 @@
 	<string>sample_token</string>
 	<key>FacebookDisplayName</key>
 	<string>Houzi</string>
+	<key>FlutterDeepLinkingEnabled</key>
+	<true/>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-3940256099942544~3347511713</string>
 	<key>GADNativeAdValidatorEnabled</key>
 	<false/>
-	<key>FlutterDeepLinkingEnabled</key>
-	<true/>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSApplicationQueriesSchemes</key>
@@ -84,9 +84,9 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>Allows app to capture photos of property.</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Allows app to show results around your location.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Allows app to show results around your location.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
 	<string>Allows app to show results around your location.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Allows app to show results around your location.</string>
@@ -96,8 +96,6 @@
 	<string>Allows app to pick photos of property.</string>
 	<key>REPLACE_WITH_TRACKING_KEY_IF_ADS_NEEDED</key>
 	<string>Allows app to show ads more relevant to you.</string>
-	<key>GADNativeAdValidatorEnabled</key>
-    <false/>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>
@@ -327,8 +325,6 @@
 	<key>UIUserInterfaceStyle</key>
 	<string>Light</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
-	<true/>
-	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 </dict>
 </plist>

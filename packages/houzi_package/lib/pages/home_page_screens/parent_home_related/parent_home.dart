@@ -238,7 +238,6 @@ class HomeState<T extends Home> extends State<T> {
             },
           ),
           body: getBodyWidget(),
-
         ),
       ),
     );

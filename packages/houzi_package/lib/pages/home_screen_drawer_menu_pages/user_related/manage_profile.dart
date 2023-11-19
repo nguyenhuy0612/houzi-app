@@ -124,22 +124,22 @@ class _ManageProfileState extends State<ManageProfile> with ValidationMixin {
                         text: UtilityMethods.getLocalizedString("edit_profile"),
                         onTap: onEditProfileTap,
                       ),
-                      GenericWidgetRow(
-                        iconData: AppThemePreferences.changePassword,
-                        text: UtilityMethods.getLocalizedString("change_password"),
-                        onTap: onChangePasswordTap,
-                      ),
+                      // GenericWidgetRow(
+                      //   iconData: AppThemePreferences.changePassword,
+                      //   text: UtilityMethods.getLocalizedString("change_password"),
+                      //   onTap: onChangePasswordTap,
+                      // ),
                     ],
                   ),
                 ),
               ),
-              Align(
-                alignment: Alignment.bottomCenter,
-                child: Padding(
-                  padding: const EdgeInsets.all(20),
-                  child: DeleteAccountButtonWidget(onPressed: onPositiveButtonPressed),
-                ),
-              ),
+              // Align(
+              //   alignment: Alignment.bottomCenter,
+              //   child: Padding(
+              //     padding: const EdgeInsets.all(20),
+              //     child: DeleteAccountButtonWidget(onPressed: onPositiveButtonPressed),
+              //   ),
+              // ),
               WaitingWidget(showWaitingWidget: _showWaitingWidget),
               BottomActionBarWidget(isInternetConnected: _isInternetConnected),
             ],

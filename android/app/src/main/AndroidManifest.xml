@@ -37,7 +37,7 @@
 
     <application
         android:name="${applicationName}"
-        android:label="Houzi"
+        android:label="LGS Real Estate"
 
         android:icon="@mipmap/ic_launcher"
         android:requestLegacyExternalStorage="true"

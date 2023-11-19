@@ -51,11 +51,12 @@ class _UserProfileState extends State<UserProfile> {
     appVersion = HiveStorageManager.readAppInfo()[APP_INFO_APP_VERSION] ?? "";
     appName = HiveStorageManager.readAppInfo()[APP_INFO_APP_NAME] ?? "";
     paymentStatus = HiveStorageManager.readUserPaymentStatus()["enable_paid_submission"] ?? "";
-
+    print("userRole: $userRole");
     generalNotifierLister = () {
       if (GeneralNotifier().change == GeneralNotifier.USER_PROFILE_UPDATE) {
         setState(() {
           userRole = UtilityMethods.chkRoleValueAndConvertToOption(HiveStorageManager.getUserRole()) ?? "";
+
           userEmail = HiveStorageManager.getUserEmail() ?? "";
           userName = HiveStorageManager.getUserName() ?? "";
           userAvatar = HiveStorageManager.getUserAvatar() ?? "";

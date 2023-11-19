@@ -178,7 +178,7 @@ class ImageWidget extends StatelessWidget {
             children: [
               Image.file(
                 imageFile!,
-                fit: BoxFit.cover,
+                fit: BoxFit.contain,
                 width: 200,
                 height: 200,
               ),
